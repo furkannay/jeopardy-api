@@ -1,0 +1,61 @@
+.container-fluid {
+    margin-top: 16px;
+}
+.list-group, .list-group-flush, .card, .card-header {
+    border: none;
+}
+.card-header, .list-group-item {
+    padding: 30px 0px;
+    background-color: rgb(37, 122, 250);
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 5px;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+.list-group-item {
+    font-size: 2rem;
+}
+.list-group-item.disabled {
+    color: white;
+}
+.isDisabled {
+    pointer-events: none;
+    cursor: not-allowed;
+}
+p {
+    font-size: 4rem;
+}
+.footer {
+    background-color: #800000; /* Bordo rengi */
+    color: white; /* Yazı rengi */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+body {
+    margin-bottom: 150px; /* Footer yüksekliği + ekstra boşluk */
+}
+
+.footer img {
+    height: 40px; /* Logo yüksekliği */
+    margin: 0 10px; /* Logo arasındaki boşluk */
+}
+.footer span {
+    font-weight: bold; /* Kalın font */
+    font-size: 1.5em;
+}
+#scoreboard {
+    font-size: 24px; /* İstediğiniz boyutu seçebilirsiniz */
+    font-weight: bold;
+}
+.row {
+    background-color: navy; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    padding: 20px; /* İstediğiniz boşluk değeri */
+}
